@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/ashmigol/hexlet-js.git"
   },
   "author": "",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ashmigol/hexlet-js/issues"
   },
-  "homepage": "https://github.com/ashmigol/hexlet-js#readme"
+  "homepage": "https://github.com/ashmigol/hexlet-js#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }
